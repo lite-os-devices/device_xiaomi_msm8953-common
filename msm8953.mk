@@ -360,3 +360,13 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
+
+# lite:mido
+PRODUCT_PACKAGES += \
+    DeviceSettings \
+    XiaomiParts \
+    GMessaging \
+    GoogleCamera
+
+PRODUCT_COPY_FILES += \
+    device/xiaomi/msm8953-common/Google/system/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml
