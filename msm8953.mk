@@ -387,7 +387,8 @@ PRODUCT_PACKAGES += \
     DeviceSettings \
     XiaomiParts \
     GMessaging \
-    GoogleCamera
+    GoogleCamera \
+    GCalendar
 
 PRODUCT_COPY_FILES += \
     device/xiaomi/msm8953-common/Google/system/etc/sysconfig/nexus.xml:system/etc/sysconfig/nexus.xml
