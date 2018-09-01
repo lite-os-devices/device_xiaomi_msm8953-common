@@ -49,7 +49,7 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_CLANG_VERSION := 7.0.2
 
 # ANT
-BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
+# BOARD_ANT_WIRELESS_DEVICE := "vfs-prerelease"
 
 # Audio
 AUDIO_FEATURE_ENABLED_ANC_HEADSET := true
@@ -75,7 +75,6 @@ AUDIO_FEATURE_ENABLED_EXT_AMPLIFIER := false
 AUDIO_USE_LL_AS_PRIMARY_OUTPUT := true
 BOARD_SUPPORTS_SOUND_TRIGGER := true
 BOARD_USES_ALSA_AUDIO := true
-USE_CUSTOM_AUDIO_POLICY := 1
 USE_XML_AUDIO_POLICY_CONF := 1
 
 # Bootloader
@@ -190,7 +189,7 @@ BOARD_USES_QCOM_HARDWARE := true
 TARGET_USE_SDCLANG := true
 
 # RIL
-TARGET_RIL_VARIANT := caf
+#TARGET_RIL_VARIANT := caf
 
 # Recovery
 ifeq ($(AB_OTA_UPDATER), true)
@@ -200,8 +199,8 @@ TARGET_RECOVERY_FSTAB := $(VENDOR_PATH)/rootdir/fstab.qcom
 endif
 
 # SELinux
-include device/qcom/sepolicy/sepolicy.mk
-BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy
+#include device/qcom/sepolicy/sepolicy.mk
+#BOARD_SEPOLICY_DIRS += $(VENDOR_PATH)/sepolicy
 
 # Wi-Fi
 BOARD_HAS_QCOM_WLAN := true
