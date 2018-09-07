@@ -7,7 +7,7 @@
   {
     "repository": "vendor_xiaomi",
     "target_path": "vendor/xiaomi",
-    "branch": "8.1"
+    "branch": "9.0"
   },
   {
     "remote":      "github",
