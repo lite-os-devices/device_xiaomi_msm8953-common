@@ -16,7 +16,6 @@ include $(call all-subdir-makefiles)
 
 LOCAL_PATH := $(call my-dir)
 
-####################################### MOD Google Camera v.5.1.018
 include $(CLEAR_VARS)
 LOCAL_MODULE := GoogleCamera
 LOCAL_MODULE_CLASS := APPS
