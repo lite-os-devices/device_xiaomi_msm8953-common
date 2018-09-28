@@ -21,7 +21,7 @@
             android:enabled="true"
             android:label="@string/advanced_settings"
             android:icon="@drawable/ic_mi">
-                <intent-filter android:priority="-3" >
+                <intent-filter android:priority="-267" >
                     <action android:name="com.android.settings.action.EXTRA_SETTINGS" />
                     <category android:name="android.intent.category.DEFAULT" />
                 </intent-filter>
