@@ -380,6 +380,8 @@ PRODUCT_COPY_FILES += \
 
 # lite:mido
 PRODUCT_PACKAGES += \
+    DeviceSettings \
+    XiaomiParts \
     GMessaging \
     GoogleCamera \
     GCalendar
