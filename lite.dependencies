@@ -11,9 +11,9 @@
   },
   {
     "remote":      "github",
-    "repository":  "AquaPie/hardware_qcom_audio",
+    "repository":  "LineageOS/android_hardware_qcom_audio",
     "target_path": "hardware/qcom/audio-caf/msm8996",
-    "branch": "a9-caf-8996"
+    "branch": "lineage-16.0-caf-8996"
   },
   {
     "remote":      "github",
