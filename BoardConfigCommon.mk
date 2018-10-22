@@ -206,6 +206,7 @@ BOARD_USES_QCOM_HARDWARE := true
 
 # RIL
 TARGET_RIL_VARIANT := caf
+DISABLE_RILD_OEM_HOOK := false
 
 # Recovery
 ifeq ($(AB_OTA_UPDATER), true)
