@@ -156,9 +156,7 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     vendor.display.color@1.0-service \
-    vendor.display.color@1.0-impl \
-    vendor.display.config@1.1 \
-    vendor.display.config@1.1_vendor
+    vendor.display.color@1.0-impl
 
 # DRM
 PRODUCT_PACKAGES += \
